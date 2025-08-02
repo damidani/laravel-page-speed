@@ -1,9 +1,9 @@
 <?php
 
-namespace RenatoMarinho\LaravelPageSpeed\Test\Middleware;
+namespace Damidani\LaravelPageSpeed\Test\Middleware;
 
-use RenatoMarinho\LaravelPageSpeed\Middleware\InsertDNSPrefetch;
-use RenatoMarinho\LaravelPageSpeed\Test\TestCase;
+use Damidani\LaravelPageSpeed\Middleware\InsertDNSPrefetch;
+use Damidani\LaravelPageSpeed\Test\TestCase;
 
 class InsertDNSPrefetchTest extends TestCase
 {

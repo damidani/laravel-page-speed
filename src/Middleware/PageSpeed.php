@@ -1,9 +1,9 @@
 <?php
 
-namespace RenatoMarinho\LaravelPageSpeed\Middleware;
+namespace Damidani\LaravelPageSpeed\Middleware;
 
 use Closure;
-use RenatoMarinho\LaravelPageSpeed\Entities\HtmlSpecs;
+use Damidani\LaravelPageSpeed\Entities\HtmlSpecs;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 

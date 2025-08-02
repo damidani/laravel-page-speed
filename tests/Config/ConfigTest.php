@@ -1,10 +1,10 @@
 <?php
 
-namespace RenatoMarinho\LaravelPageSpeed\Test\Config;
+namespace Damidani\LaravelPageSpeed\Test\Config;
 
 use Illuminate\Http\Request;
-use RenatoMarinho\LaravelPageSpeed\Middleware\TrimUrls;
-use RenatoMarinho\LaravelPageSpeed\Test\TestCase;
+use Damidani\LaravelPageSpeed\Middleware\TrimUrls;
+use Damidani\LaravelPageSpeed\Test\TestCase;
 use Mockery as m;
 
 class ConfigTest extends TestCase

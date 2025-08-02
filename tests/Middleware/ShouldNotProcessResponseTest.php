@@ -1,22 +1,22 @@
 <?php
 
-namespace RenatoMarinho\LaravelPageSpeed\Test\Middleware;
+namespace Damidani\LaravelPageSpeed\Test\Middleware;
 
 use Mockery as m;
 use Illuminate\Http\Request;
-use RenatoMarinho\LaravelPageSpeed\Test\TestCase;
+use Damidani\LaravelPageSpeed\Test\TestCase;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
-use RenatoMarinho\LaravelPageSpeed\Middleware\PageSpeed;
-use RenatoMarinho\LaravelPageSpeed\Middleware\CollapseWhitespace;
+use Damidani\LaravelPageSpeed\Middleware\PageSpeed;
+use Damidani\LaravelPageSpeed\Middleware\CollapseWhitespace;
 
 class ShouldNotProcessResponseTest extends TestCase
 {
     /**
      * PageSpeed middleware instance.
      *
-     * @var \RenatoMarinho\LaravelPageSpeed\Middleware\PageSpeed
+     * @var \Damidani\LaravelPageSpeed\Middleware\PageSpeed
      */
     protected $middleware;
 

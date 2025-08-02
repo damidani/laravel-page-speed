@@ -1,8 +1,8 @@
 <?php
 
-namespace RenatoMarinho\LaravelPageSpeed\Test;
+namespace Damidani\LaravelPageSpeed\Test;
 
-use RenatoMarinho\LaravelPageSpeed\ServiceProvider;
+use Damidani\LaravelPageSpeed\ServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestDisabledMiddlewareCase extends Orchestra
