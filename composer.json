@@ -1,5 +1,5 @@
 {
-    "name": "renatomarinho/laravel-page-speed",
+    "name": "damidani/laravel-page-speed",
     "description": "Laravel Page Speed",
     "keywords": [
         "laravel",
@@ -13,11 +13,15 @@
         {
             "name": "Renato Marinho",
             "email": "renato.marinho@s2move.com"
+        },
+        {
+            "name": "Damien Benedetti",
+            "email": "damien@hcloud.fr"
         }
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^6.0 || ^7.0 || ^8.0 || ^9.0|^10.0"
+        "illuminate/support": "^12.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5 || ^9.0",
@@ -27,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "RenatoMarinho\\LaravelPageSpeed\\": "src/"
+            "Damidani\\LaravelPageSpeed\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RenatoMarinho\\LaravelPageSpeed\\Test\\": "tests"
+            "Damidani\\LaravelPageSpeed\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -45,7 +49,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RenatoMarinho\\LaravelPageSpeed\\ServiceProvider"
+                "Damidani\\LaravelPageSpeed\\ServiceProvider"
             ]
         }
     }
